@@ -2,7 +2,7 @@
 # ⚽ API Champions League - Node.js + Express + TypeScript
 
 Bem-vindo à API Champions League!  
-Este projeto simula uma API completa para gerenciar dados da Champions League, utilizando Node.js, Express e TypeScript.
+Este projeto, feito por mim, simula uma API completa para gerenciar dados da Champions League, utilizando Node.js, Express e TypeScript. Ele é parte do desafio da DIO proposto para o aprendizado de Node.js e foi ''aditivado'' para ficar melhor ainda!
 
 Agora com documentação automática via Swagger disponível!
 
