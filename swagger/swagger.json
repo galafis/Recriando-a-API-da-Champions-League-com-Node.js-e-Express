@@ -1,0 +1,94 @@
+
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Champions League API",
+    "version": "1.0.0",
+    "description": "API para gerenciamento de times da Champions League."
+  },
+  "paths": {
+    "/teams": {
+      "get": {
+        "summary": "Listar todos os times",
+        "responses": {
+          "200": {
+            "description": "Lista de times retornada com sucesso."
+          }
+        }
+      },
+      "post": {
+        "summary": "Criar um novo time",
+        "responses": {
+          "201": {
+            "description": "Time criado com sucesso."
+          }
+        }
+      }
+    },
+    "/teams/{id}": {
+      "get": {
+        "summary": "Buscar um time por ID",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Time encontrado."
+          },
+          "404": {
+            "description": "Time não encontrado."
+          }
+        }
+      },
+      "put": {
+        "summary": "Atualizar um time",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Time atualizado com sucesso."
+          },
+          "404": {
+            "description": "Time não encontrado para atualização."
+          }
+        }
+      },
+      "delete": {
+        "summary": "Remover um time",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Time removido com sucesso."
+          },
+          "404": {
+            "description": "Time não encontrado para exclusão."
+          }
+        }
+      }
+    }
+  }
+}
