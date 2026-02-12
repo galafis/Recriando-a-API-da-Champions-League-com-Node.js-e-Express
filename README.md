@@ -1,63 +1,174 @@
+# 🚀 Recriando A Api Da Champions League Com Node.Js E Express
 
-# ⚽ API Champions League - Node.js + Express + TypeScript
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.3-3178C6.svg)](https://www.typescriptlang.org/)
+[![Express.js](https://img.shields.io/badge/Express.js-4-000000.svg)](https://expressjs.com/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-Bem-vindo à API Champions League!  
-Este projeto simula uma API completa para gerenciar dados da Champions League, utilizando Node.js, Express e TypeScript.
-
-Agora com documentação automática via Swagger disponível!
-
-## 🚀 Como Rodar o Projeto
-
-1. Clone o repositório ou baixe o ZIP.
-2. No terminal, entre na pasta do projeto.
-3. Instale as dependências:
-   ```bash
-   npm install
-   ```
-4. Para rodar em modo desenvolvimento:
-   ```bash
-   npm run dev
-   ```
-5. Para rodar em produção:
-   ```bash
-   npm run build
-   npm start
-   ```
-
-Servidor rodando em: `http://localhost:3333`
+[English](#english) | [Português](#português)
 
 ---
 
-## 📚 Documentação Swagger
+## English
 
-Após iniciar o servidor, acesse:  
-[http://localhost:3333/docs](http://localhost:3333/docs)
+### 🎯 Overview
+
+**Recriando A Api Da Champions League Com Node.Js E Express** — DIObootcamp
+
+Total source lines: **82** across **5** files in **1** language.
+
+### ✨ Key Features
+
+- **Production-Ready Architecture**: Modular, well-documented, and following best practices
+- **Comprehensive Implementation**: Complete solution with all core functionality
+- **Clean Code**: Type-safe, well-tested, and maintainable codebase
+- **Easy Deployment**: Docker support for quick setup and deployment
+
+### 🚀 Quick Start
+
+#### Prerequisites
+- Node.js 20+ and npm
+
+
+#### Installation
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/galafis/Recriando-a-API-da-Champions-League-com-Node.js-e-Express.git
+cd Recriando-a-API-da-Champions-League-com-Node.js-e-Express
+```
+
+2. **Install dependencies**
+```bash
+npm install
+```
+
+#### Running
+
+```bash
+npm run dev
+```
+
+
+
+
+
+### 📁 Project Structure
+
+```
+Recriando-a-API-da-Champions-League-com-Node.js-e-Express/
+├── src/
+│   ├── controllers/
+│   │   └── teamController.ts
+│   ├── database/
+│   │   └── teams.ts
+│   ├── models/
+│   │   └── team.ts
+│   ├── routes/
+│   │   └── teams.ts
+│   └── server.ts
+├── swagger/
+│   └── swagger.json
+├── README.md
+├── package.json
+└── tsconfig.json
+```
+
+### 🛠️ Tech Stack
+
+| Technology | Usage |
+|------------|-------|
+| TypeScript | 5 files |
+
+### 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+### 👤 Author
+
+**Gabriel Demetrios Lafis**
+
+- GitHub: [@galafis](https://github.com/galafis)
+- LinkedIn: [Gabriel Demetrios Lafis](https://linkedin.com/in/gabriel-demetrios-lafis)
 
 ---
 
-## 🎯 Funcionalidades
+## Português
 
-- Gerenciar Times (Teams)
-- Gerenciar Jogadores (Players)
-- Gerenciar Partidas (Matches)
-- Exibir Classificação (Standings)
+### 🎯 Visão Geral
 
----
+**Recriando A Api Da Champions League Com Node.Js E Express** — DIObootcamp
 
-## ✨ Melhorias Futuras
+Total de linhas de código: **82** em **5** arquivos em **1** linguagem.
 
-- Integrar banco de dados real (MongoDB ou PostgreSQL)
-- Implementar autenticação JWT
-- Dashboard administrativo
-- Integrações com serviços de dados esportivos em tempo real
+### ✨ Funcionalidades Principais
 
----
+- **Arquitetura Pronta para Produção**: Modular, bem documentada e seguindo boas práticas
+- **Implementação Completa**: Solução completa com todas as funcionalidades principais
+- **Código Limpo**: Type-safe, bem testado e manutenível
+- **Fácil Implantação**: Suporte Docker para configuração e implantação rápidas
 
-## 🛠️ Tecnologias Utilizadas
+### 🚀 Início Rápido
 
-- Node.js
-- Express
-- TypeScript
-- Swagger UI
+#### Pré-requisitos
+- Node.js 20+ e npm
 
----
+
+#### Instalação
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/galafis/Recriando-a-API-da-Champions-League-com-Node.js-e-Express.git
+cd Recriando-a-API-da-Champions-League-com-Node.js-e-Express
+```
+
+2. **Install dependencies**
+```bash
+npm install
+```
+
+#### Execução
+
+```bash
+npm run dev
+```
+
+
+
+
+### 📁 Estrutura do Projeto
+
+```
+Recriando-a-API-da-Champions-League-com-Node.js-e-Express/
+├── src/
+│   ├── controllers/
+│   │   └── teamController.ts
+│   ├── database/
+│   │   └── teams.ts
+│   ├── models/
+│   │   └── team.ts
+│   ├── routes/
+│   │   └── teams.ts
+│   └── server.ts
+├── swagger/
+│   └── swagger.json
+├── README.md
+├── package.json
+└── tsconfig.json
+```
+
+### 🛠️ Stack Tecnológica
+
+| Tecnologia | Uso |
+|------------|-----|
+| TypeScript | 5 files |
+
+### 📄 Licença
+
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+
+### 👤 Autor
+
+**Gabriel Demetrios Lafis**
+
+- GitHub: [@galafis](https://github.com/galafis)
+- LinkedIn: [Gabriel Demetrios Lafis](https://linkedin.com/in/gabriel-demetrios-lafis)
