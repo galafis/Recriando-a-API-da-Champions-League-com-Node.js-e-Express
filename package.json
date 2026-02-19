@@ -1,4 +1,3 @@
-
 {
   "name": "champions-league-api",
   "version": "1.0.0",
@@ -7,9 +6,15 @@
   "scripts": {
     "dev": "ts-node-dev src/server.ts",
     "build": "tsc",
-    "start": "node dist/server.js"
+    "start": "node src/server.ts"
   },
-  "keywords": ["nodejs", "express", "typescript", "champions-league", "api"],
+  "keywords": [
+    "nodejs",
+    "express",
+    "typescript",
+    "champions-league",
+    "api"
+  ],
   "author": "Gabriel Lafis",
   "license": "MIT",
   "dependencies": {
